@@ -1,0 +1,6 @@
+Comandos que aprendi para o django
+
+django-admin startproject (nome do seu projeto) .(para criar na raiz)
+python manage.py runserver -> Para subir um servidor do proprio django
+Control + c -> Quit do server
+
