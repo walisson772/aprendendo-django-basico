@@ -3,11 +3,9 @@
 
     <h1>{% block texto %} Base {% endblock texto %}</h1>
 
-{% include "global/partials/postblock.html" %}
-{% include "global/partials/postblock.html" %}
-{% include "global/partials/postblock.html" %}
-{% include "global/partials/postblock.html" %}
-    
-
+<main class="content">
+    {% block posts %}{% endblock posts %}
+    {% block home %}{% endblock home %}
+</main>
 </body>
 </html>
