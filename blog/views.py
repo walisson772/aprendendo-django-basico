@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from blog.data import posts
 
 
 # Create your views here.
@@ -6,6 +7,7 @@ def blog(request):
     context = {
             'text': 'Estou no blog',
             'title': 'Blog - ',
+            'posts': posts
         }
     return render(
         request,
