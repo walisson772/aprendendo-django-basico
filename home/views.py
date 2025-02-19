@@ -2,12 +2,16 @@ from django.shortcuts import render
 
 
 # Create your views here.
+from django.shortcuts import render
+
+
 def home(request):
+    print('home')
+
     context = {
-            'text': 'Estou na home',
-            'title': 'Home - ',
-        }
-    
+        'text': 'Olá home'
+    }
+
     return render(
         request,
         'home/index.html',
